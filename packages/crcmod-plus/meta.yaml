@@ -1,0 +1,18 @@
+package:
+  name: crcmod-plus
+  version: 2.1.0
+  top-level:
+    - crcmod
+
+source:
+  url: https://files.pythonhosted.org/packages/b1/4f/b899763daf22f9edd7311c204340b80aa8a24752fcd4b3b5b012730dbb5e/crcmod-plus-2.1.0.tar.gz
+  sha256: 127b80e1fce7cc52ed6da5e4cb74e48cb29616ee90924f444c73d9480f356158
+
+test:
+  imports:
+    - crcmod
+
+about:
+  PyPI: https://pypi.org/project/crcmod-plus
+  summary: CRC generator - modernized
+  license: MIT License (MIT)
